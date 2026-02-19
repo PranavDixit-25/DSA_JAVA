@@ -6,8 +6,9 @@ public class maxof3_builtin {
         int a=sc.nextInt();
         int b=sc.nextInt();
         int c=sc.nextInt();
-        int d = Math.max(a,b);
-        int e = Math.max(d,c);
-        System.out.println("largest integer is:" + e);
+        //int d = Math.max(a,b);
+        //int e = Math.max(d,c);
+       // System.out.println("largest integer is:" + e);
+        System.out.println(Math.max(Math.max(a,b),c));
     }
 }
