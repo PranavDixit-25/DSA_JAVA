@@ -8,5 +8,6 @@ public class builtinfunctions {
         System.out.println(Math.ceil(5.666));
         System.out.println(Math.min(3,4));
         System.out.println(Math.max(3,4));
+         System.out.println(Math.pow(3,4));
     }
 }

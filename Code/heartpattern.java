@@ -4,7 +4,7 @@ class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();   // try 7 or 9
+        int n = sc.nextInt();   // enter 7 or 9
 
         for (int i = n / 2; i <= n; i += 2) {
 
