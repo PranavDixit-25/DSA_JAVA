@@ -30,5 +30,9 @@ public class inputarray {
         for (int c=0;c<n;c++) {
             if (arr[c] >= max) {max = arr[c];}}
             System.out.println("MAX element is" + max);
+            int min =9999999;
+        for (int c=0;c<n;c++) {
+            if (arr[c] <= min) {min = arr[c];}}
+            System.out.println("min element is" + min);
     }
 }
