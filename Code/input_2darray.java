@@ -20,6 +20,20 @@ public class input_2darray {
             System.out.print(arr[row][col]+" ");}
         System.out.println(" ");
     }
+    int sum=0;
+    int mul=1;
+    int max=-999999;
+    int min=999999;
+    for(int r=0;r<arr.length;r++) {
+        for(int c=0;c<arr[r].length;c++) {
+            sum=sum+arr[r][c];
+            mul*=arr[r][c];
+            if(max<=arr[r][c]) {max=arr[r][c];}
+            if(min>=arr[r][c]) {min=arr[r][c];}
+        }
+    }
+            System.out.println("sum:"+sum+"product:"+mul+"max:"+max+"min:"+min);
+
     }
 
 }
